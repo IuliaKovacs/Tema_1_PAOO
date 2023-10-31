@@ -1,0 +1,8 @@
+
+src/CMakeCache.txt
+src/cmake_install.cmake
+src/lib/cmake_install.cmake
+src/CMakeFiles/
+src/Makefile
+src/lib/CMakeFiles/
+src/lib/Makefile

@@ -19,5 +19,6 @@ public:
     void displayWarning();
     void displaySeverityLevel();
     void displayWarningType();
+    warning operator=(warning &ob); //overload assignment
 };
 

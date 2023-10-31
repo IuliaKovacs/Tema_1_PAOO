@@ -22,6 +22,11 @@ int main() {
     warning1.displayWarning();
     warning2.displayWarning(); // The copied warning remains unchanged
 
+    // Assign warning1 that has more allocated space to warning2 in order to test op =
+    cout <<"\n**** Assigment Operator part ****"<< '\n';
+    warning2 = warning1;
+    warning2.displayWarning();
+
     return 0;
 }
 
